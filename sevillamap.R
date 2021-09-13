@@ -1,3 +1,8 @@
+library(osmdata)
+library(tidyverse)
+library(df) ##require(df)
+
+
 getbb("Sevilla, Spain")
 sevilla <- getbb("Seville, Spain")
 sevilla
