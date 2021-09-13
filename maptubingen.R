@@ -1,6 +1,6 @@
-library("osmdata")
-library("tidyverse")
-library("df")
+library(osmdata)
+library(tidyverse)
+library(df) ##require(df)
 
 tubi <- getbb("Tubingen, Germany")
 tubi
