@@ -1,3 +1,7 @@
+library("osmdata")
+library("tidyverse")
+library("df")
+
 tubi <- getbb("Tubingen, Germany")
 tubi
 streets <- tubi%>%
